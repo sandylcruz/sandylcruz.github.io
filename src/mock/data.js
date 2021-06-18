@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Sandy Cruz | Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Sandy Cruz.',
   subtitle: '',
   cta: '',
 };
@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
+  paragraphOne: 'I like cats.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -28,21 +28,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'broken_table.jpg',
+    title: 'BrokenTable',
+    info: 'BrokenTable is a restaurant reservation application built on React/Redux, Ruby on Rails, and a PostgreSQL database.',
+    info2:
+      'It features integrated Google Maps and TomTom API with geolocation based searching to display location of restaurants on map. Managed scheduling and booking CRUD through custom transactional database operations using Active Record and PostgreSQL to avoid double bookings',
+    url: 'https://broken-table.herokuapp.com/',
+    repo: 'https://github.com/sandylcruz/broken-table', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: '2048.jpg',
+    title: '2048',
+    info: 'This is a React clone of of the popular 2048 game. Animations were implemented with Framer Motion.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://sandylcruz.github.io/2048/',
+    repo: 'https://github.com/sandylcruz/2048', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -59,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'sandyleahcruz@icloud.com',
 };
 
 // FOOTER DATA
@@ -67,28 +68,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sandy-cruz-9256a544/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/sandylcruz',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
