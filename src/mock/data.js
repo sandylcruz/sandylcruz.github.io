@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'BrokenTable',
     info: 'BrokenTable is a restaurant reservation application built on React/Redux, Ruby on Rails, and a PostgreSQL database.',
     info2:
-      'It features integrated Google Maps and TomTom API with geolocation based searching to display location of restaurants on map. Managed scheduling and booking CRUD through custom transactional database operations using Active Record and PostgreSQL to avoid double bookings',
+      'It features integrated Google Maps and TomTom API with geolocation based searching to display restaurants on map. BrokenTable manages scheduling and booking CRUD through custom transactional database operations using Active Record and PostgreSQL.',
     url: 'https://broken-table.herokuapp.com/',
     repo: 'https://github.com/sandylcruz/broken-table', // if no repo, the button will not show up
   },
