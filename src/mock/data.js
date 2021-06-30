@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I like cats.',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I’m a full-stack Software Engineer based in San Francisco with experience in JavaScript, React, Redux, Ruby, Rails, Typescript, PostgreSQL, and AWS. ',
+  paragraphTwo:
+    'I’m an independent, self-starter who completed App Academy Open while working a full-time job. I am passionate about creative problem solving and strive for quality in my work.  I enjoy being given goals and finding ways to achieve them.',
+  paragraphThree: ' ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -47,12 +49,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'access-it.jpg',
+    title: 'Access-It',
+    info: 'Access-It is a NPM package that contains WAI-ARIA accessible components. This package was built with Typescript and Javascript.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://sandylcruz.github.io/access-it',
+    repo: 'https://github.com/sandylcruz/access-it', // if no repo, the button will not show up
   },
 ];
 
