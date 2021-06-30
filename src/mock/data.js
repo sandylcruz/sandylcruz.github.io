@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Sandy Cruz | Developer', // e.g: 'Name | Developer'
+  title: 'Sandy Cruz | Software Engineer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I’m an independent, self-starter who completed App Academy Open while working a full-time job. I am passionate about creative problem solving and strive for quality in my work.  I enjoy being given goals and finding ways to achieve them.',
   paragraphThree: ' ',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  // resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -62,7 +62,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'sandyleahcruz@icloud.com',
+  email: 'sandycrz@icloud.com',
 };
 
 // FOOTER DATA
