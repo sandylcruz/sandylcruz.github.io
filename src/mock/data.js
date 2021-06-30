@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I’m an independent, self-starter who completed App Academy Open while working a full-time job. I am passionate about creative problem solving and strive for quality in my work.  I enjoy being given goals and finding ways to achieve them.',
   paragraphThree: ' ',
-  // resume: '', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1QoK3t7MakuxhwBD52rse8NN0mte-4-xZ/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
