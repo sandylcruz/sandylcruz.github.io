@@ -40,21 +40,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '2048.jpg',
-    title: '2048',
-    info: 'This is a React clone of of the popular 2048 game. Animations were implemented with Framer Motion.',
-    info2: '',
-    url: 'https://sandylcruz.github.io/2048/',
-    repo: 'https://github.com/sandylcruz/2048', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'access-it.jpg',
     title: 'Access-It',
     info: 'Access-It is a NPM package that contains WAI-ARIA accessible components. This package was built with Typescript and Javascript.',
     info2: '',
     url: 'https://sandylcruz.github.io/access-it',
     repo: 'https://github.com/sandylcruz/access-it', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '2048.jpg',
+    title: '2048',
+    info: 'This is a React clone of of the popular 2048 game. Animations were implemented with Framer Motion.',
+    info2: '',
+    url: 'https://sandylcruz.github.io/2048/',
+    repo: 'https://github.com/sandylcruz/2048', // if no repo, the button will not show up
   },
 ];
 
