@@ -9,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: 'G-B74S76FZRH',
+        trackingId: 'UA-201134319-1',
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Setting this parameter is optional
@@ -34,6 +34,15 @@ module.exports = {
         cookieDomain: 'example.com',
         // defaults to false
         enableWebVitalsTracking: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          'UA-201134319-1', // Google Analytics / GA
+        ],
       },
     },
     {
