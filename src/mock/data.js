@@ -19,10 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I’m a full-stack Software Engineer based in San Francisco with experience in JavaScript, React, Redux, Ruby, Rails, Typescript, PostgreSQL, and AWS. ',
+    'I’m a full-stack software engineer with experience with React, JavaScript, Ruby, Ruby on Rails, Redux, ESLint, ES6, SQL, styled-components, HTML5, and CSS3.',
   paragraphTwo:
-    'I’m an independent, self-starter who completed App Academy Open while working a full-time job. I am passionate about creative problem solving and strive for quality in my work.  I enjoy being given goals and finding ways to achieve them.',
-  paragraphThree: ' ',
+    'Ever since middle school, I’ve been interested in technology. I remember making a photoshop competition website on Geocities with basic HTML and CSS. As a former speech-language pathologist, I started making small applications to speed up writing evaluations, like a calculator that determines a client’s percentage of delay. From there, I got more and more interested in building applications. My background taught me how communicate high-level topics to a wide range of people, ranging from two-year-olds to parents.',
+  paragraphThree:
+    'Over the last year, I have I created an open-sourced npm package with WAI-ARIA accessible components. I also created a clone of OpenTable / Resy using Ruby on the backend, React on the frontend, and Postgres as the database. Currently I’m working on creating a todo-list application with calendar integration. I’m really interested in using my new skills to give back to the community and make websites more accessible. ',
   resume: 'https://drive.google.com/file/d/1Y2cMJJSiccEIVDFICdwTCt-srnjHu9hh/view?usp=sharing', // if no resume, the button will not show up
 };
 
