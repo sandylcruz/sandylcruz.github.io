@@ -24,7 +24,7 @@ export const aboutData = {
     'Ever since middle school, I’ve been interested in technology. I remember making a photoshop competition website on Geocities with basic HTML and CSS. As a former speech-language pathologist, I started making small applications to speed up writing evaluations, like a calculator that determines a client’s percentage of delay. From there, I got more and more interested in building applications. My background taught me how communicate high-level topics to a wide range of people, ranging from two-year-olds to parents.',
   paragraphThree:
     'Over the last year, I have I created an open-sourced npm package with WAI-ARIA accessible components. I also created a clone of OpenTable / Resy using Ruby on the backend, React on the frontend, and Postgres as the database. Currently I’m working on creating a todo-list application with calendar integration. I’m really interested in using my new skills to give back to the community and make websites more accessible. ',
-  resume: 'https://drive.google.com/file/d/1Y2cMJJSiccEIVDFICdwTCt-srnjHu9hh/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1KuBbRKpZYQKPHtlE8rnAtHw6GoH2sG_5/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
