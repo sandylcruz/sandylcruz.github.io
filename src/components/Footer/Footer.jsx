@@ -1,15 +1,23 @@
-import React, { useContext } from 'react';
+import React from 'react';
+
+import { graphql, useStaticQuery } from 'gatsby';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
-
-import { githubButtons } from '../../mock/data';
 
 const Footer = () => {
-  const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
-  const { isEnabled } = githubButtons;
+  const {
+    siteContent: { networks },
+  } = useStaticQuery(graphql`
+    query NetworksQuery {
+      siteContent {
+        networks {
+          id
+          url
+          name
+        }
+      }
+    }
+  `);
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -37,8 +45,6 @@ const Footer = () => {
             })}
         </div>
         <hr />
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );
